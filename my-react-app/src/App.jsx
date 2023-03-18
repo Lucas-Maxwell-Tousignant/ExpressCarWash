@@ -15,16 +15,15 @@ function App() {
 
   return (
     <div className="App">
-      <div>
-
+      <div className='mainBanner'>
+        <h1>
+          Express Car Wash
+          <br />
+          El Paso, TX
+          <br />
+          Click here to join our Mailing List!
+        </h1>
       </div>
-
-      <h1>Express Car Wash</h1>
-      <h2>El Paso, TX</h2>
-      <h3>Click here to join our Mailing List!</h3>
-      {/* <h4 className='washPicture'> <img src="https://lh3.googleusercontent.com/p/AF1QipNj1XODgi0LcbIPBikzQOFLHzGYzOm7O2-_AmxE=s680-w680-h510" alt="imgnotdisplayhing" /></h4> */}
-
-
     </div>
   )
 }
