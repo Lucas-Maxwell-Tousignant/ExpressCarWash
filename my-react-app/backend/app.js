@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5173;
 
-app.get("http://localhost:5000/", (req, res) => {
+app.get("/", (req, res) => {
   res.send("Hello from the server!");
 });
 

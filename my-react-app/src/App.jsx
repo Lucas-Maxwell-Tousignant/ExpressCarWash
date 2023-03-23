@@ -1,14 +1,7 @@
-import { useState } from 'react'
-import React from 'react'
-import ReactDom from 'react-dom'
+import React, { useState } from 'react';
 import './App.css'
-import { Link } from 'react-router-dom';
 
-// function HomePageButton() {
-//   return (
-//     <Link to="/">Home</Link>
-//   );
-// }
+
 
 function App() {
   const [count, setCount] = useState(0)
